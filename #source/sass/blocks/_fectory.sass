@@ -1,0 +1,25 @@
+.fectory
+  display: flex
+  &-block
+    display: flex
+    justify-content: center
+
+    &__image
+      margin: 20px 0
+
+    &__text
+      margin-left: 70px
+      flex-basis: 50%
+      font-size: 20px
+
+@media (max-width: 992px)
+  .fectory
+    &-block
+      display: table-caption
+      &__image
+        width: 370px
+        height: 269px
+      &__text
+        margin: 0
+        padding: 5px
+      
